@@ -28,5 +28,11 @@ This project provides a simple web API that performs sentiment analysis on textu
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/sentiment-analysis-api.git
+   git clone https://github.com/your-username/sentiment-analysis-api.git'
+2. **Create and Activate a Virtual Environment**
+
+   ```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
    
