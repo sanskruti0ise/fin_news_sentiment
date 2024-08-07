@@ -32,7 +32,7 @@ This project provides a simple web API that performs sentiment analysis on textu
 2. **Create and Activate a Virtual Environment**
 
    ```bash
-python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
+   python -m venv venv
+   source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
    
