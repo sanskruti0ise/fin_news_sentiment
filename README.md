@@ -42,11 +42,11 @@ This project provides a comprehensive framework for sentiment analysis, encompas
 5. **Set-up** `
 * For Linux Based System:   
    ```bash
-   python3 -m virtualenv venv
+   python3 -m venv venv
    source venv/bin/activate
 * For Windows:
     ```bash
-    python3 -m virtualenv venv
+    python3 -m venv venv
     source env\Scripts\activate
     
 6. **Copy the ngrok url to ui_test_sentiment.py/test_sentiment.py**
@@ -71,7 +71,7 @@ This project provides a comprehensive framework for sentiment analysis, encompas
 3.  **Create and Activate a Virtual Environment**
 
     ```bash
-    python3 -m virtualenv venv
+    python3 -m venv venv
 
 4. **Activate Virtual Environment**
 * For Linux Based System:   
