@@ -6,7 +6,7 @@ A Flask-based API for sentiment analysis using a fine-tuned BERT model. This API
 
 - [Overview](#overview)
 - [Setup](#setup)
-- [Usage](#Training_Flask_NGROK)
+- [Model Training & Flask API using NGROK](#Training_Flask_NGROK)
 - [Testing](#testing)
 - [Troubleshooting](#troubleshooting)
 - [License](#license)
