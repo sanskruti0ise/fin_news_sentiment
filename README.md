@@ -6,7 +6,7 @@ A Flask-based API for sentiment analysis using a fine-tuned BERT model. This API
 
 - [Overview](#overview)
 - [Setup](#setup)
-- [Usage](#usage)
+- [Usage](#Training_Flask_NGROK)
 - [Testing](#testing)
 - [Troubleshooting](#troubleshooting)
 - [License](#license)
@@ -22,15 +22,16 @@ This project provides a comprehensive framework for sentiment analysis, encompas
 - Python 3.7 or higher
 - `pip` (Python package installer)
 - An active internet connection for downloading model files and dependencies
-
+  
+## Training_Flask_NGROK
 ### Installation
 **For Model training and Flask API using ngrok**
 1. **Open the ipynb in colab**
 * Click on finance_news_sentiment_analysis.ipynb
 * Click on Open in Colab
 2. **Run the cells**
-   Instructions are provided wherever required.
-   For the classifiers and models --> Select the options of your choice from the dropdowns.
+* Instructions are provided wherever required.
+* For the classifiers and models --> Select the options of your choice from the dropdowns.
 3. **Flask API through ngrok**
    While running the last cell on notebook, you would get a ngrok url copy the url.
 4. **Clone the Repository**
@@ -42,11 +43,13 @@ This project provides a comprehensive framework for sentiment analysis, encompas
    python3 -m virtualenv venv
    source venv/bin/activate
 7. **Copy the ngrok url to ui_test_sentiment.py/test_sentiment.py**
-   ui_test_sentiment.py : gradio app for testing
-   test_sentiment.py : requests script for testing
-8. **Run the ui_test_sentiment.py**
+* ui_test_sentiment.py : gradio app for testing
+* test_sentiment.py : requests script for testing
+8. **Run the sentiment analysis**
    ```bash
    python3 ui_test_sentiment.py
+   ```bash
+   python3 test_sentiment.py
 ---------------------------------------------------------------------------------
 1. **Clone the Repository**
 
