@@ -1,6 +1,6 @@
-# Sentiment Analysis API
-
-A Flask-based API for sentiment analysis using a fine-tuned BERT model. This API takes text input and predicts its sentiment as either "negative," "neutral," or "positive."
+# Sentiment Analysis on Finance News Data Using Smaller LLM models & Classic Clasifiers:
+* A simple LLM application that can perform sentiment analysis on financial news articles using a smaller LLM
+* A Flask-based API for sentiment analysis using a fine-tuned BERT model. This API takes text input and predicts its sentiment as either "negative," "neutral," or "positive."
 
 ## Table of Contents
 
@@ -8,8 +8,9 @@ A Flask-based API for sentiment analysis using a fine-tuned BERT model. This API
 - [Setup](#setup)
 - [Model Training & Flask API using Ngrok](#Training&FlaskAPI_Ngrok)
 - [Testing Flask API on Local](#Testing_Flask_API_on_Local)
+- [Result Overview: Performance Comparison](#Result_Overview_&_Performance_Comparison)
 - [Troubleshooting](#troubleshooting)
-- [License](#license)
+
 
 ## Overview
 
@@ -86,6 +87,8 @@ This project provides a comprehensive framework for sentiment analysis, encompas
 8. **Open the link in your Browser :http://127.0.0.1:7860**
 9. **Test out by entering text and submit button**
 
+## Result_Overview_&_Performance_Comparison
+**Performance Comparison of Sentiment Analysis Models from the experiment on Finance News Data.**
 | Model                               | Negative Precision | Negative Recall | Negative F1-Score | Neutral Precision | Neutral Recall | Neutral F1-Score | Positive Precision | Positive Recall | Positive F1-Score | Accuracy | Macro Avg Precision | Macro Avg Recall | Macro Avg F1-Score | Weighted Avg Precision | Weighted Avg Recall | Weighted Avg F1-Score |
 |-------------------------------------|--------------------|-----------------|-------------------|-------------------|----------------|------------------|--------------------|-----------------|-------------------|----------|---------------------|------------------|--------------------|----------------------|---------------------|----------------------|
 | Intel/dynamic_tinybert              | 0.77               | 0.71            | 0.74              | 0.94              | 0.80           | 0.87             | 0.69               | 0.93            | 0.79              | 0.83     | 0.80                | 0.81             | 0.80               | 0.85                 | 0.83                | 0.83                 |
@@ -93,6 +96,10 @@ This project provides a comprehensive framework for sentiment analysis, encompas
 | microsoft/MiniLM-L12-H384-uncased   | 0.59               | 0.83            | 0.69              | 0.94              | 0.77           | 0.84             | 0.73               | 0.87            | 0.79              | 0.80     | 0.75                | 0.82             | 0.78               | 0.83                 | 0.80                | 0.81                 |
 | SVC (linear, random state 42)       | 0.67               | 0.44            | 0.53              | 0.76              | 0.92           | 0.83             | 0.69               | 0.48            | 0.56              | 0.74     | 0.71                | 0.61             | 0.64               | 0.73                 | 0.74                | 0.72                 |
 | MultinomialNB                       | 0.68               | 0.09            | 0.16              | 0.70              | 0.96           | 0.81             | 0.66               | 0.36            | 0.46              | 0.69     | 0.68                | 0.47             | 0.48               | 0.68                 | 0.69                | 0.64                 |
+
+## Troubleshooting
+**If you do not have git lfs installed**
+Follow the link for Installation: https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage
 
    source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
