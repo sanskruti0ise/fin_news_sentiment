@@ -24,7 +24,7 @@ This project provides a comprehensive framework for sentiment analysis, encompas
 - An active internet connection for downloading model files and dependencies
 
 ### Installation
-
+---------------------------------------------------------------------------------
 1. **Clone the Repository**
 
    ```bash
