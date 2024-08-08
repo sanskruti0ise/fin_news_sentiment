@@ -1,5 +1,6 @@
 import requests
 
+#edit your ngrok url below
 url = "your_ngrok_url/predict"
 data = {"text": "The market is performing well today."}
 headers = {"Content-Type": "application/json"}
