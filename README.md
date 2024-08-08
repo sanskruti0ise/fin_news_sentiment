@@ -26,9 +26,8 @@ This project provides a comprehensive framework for sentiment analysis, encompas
 ### Installation
 **For Model training and Flask API using ngrok**
 1. **Open the ipynb in colab**
-   ```bash
-   Click on finance_news_sentiment_analysis.ipynb
-   Click on Open in Colab
+* Click on finance_news_sentiment_analysis.ipynb
+* Click on Open in Colab
 2. **Run the cells**
    Instructions are provided wherever required.
    For the classifiers and models --> Select the options of your choice from the dropdowns.
