@@ -38,6 +38,10 @@ This project provides a comprehensive framework for sentiment analysis, encompas
 
    ```bash
    source venv/bin/activate
+4. **Install Requirements**
+
+   ```bash
+   pip install -r requirements.txt
 
 | Model                               | Negative Precision | Negative Recall | Negative F1-Score | Neutral Precision | Neutral Recall | Neutral F1-Score | Positive Precision | Positive Recall | Positive F1-Score | Accuracy | Macro Avg Precision | Macro Avg Recall | Macro Avg F1-Score | Weighted Avg Precision | Weighted Avg Recall | Weighted Avg F1-Score |
 |-------------------------------------|--------------------|-----------------|-------------------|-------------------|----------------|------------------|--------------------|-----------------|-------------------|----------|---------------------|------------------|--------------------|----------------------|---------------------|----------------------|
