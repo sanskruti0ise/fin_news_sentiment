@@ -29,8 +29,6 @@ This project provides a comprehensive framework for sentiment analysis, encompas
 
    ```bash
    GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/sanskruti0ise/fin_news_sentiment.git
-
-   ```bash
    git lfs pull
 2. **Create and Activate a Virtual Environment**
 
