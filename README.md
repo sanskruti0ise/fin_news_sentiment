@@ -26,9 +26,12 @@ This project provides a comprehensive framework for sentiment analysis, encompas
 ### Installation
 
 1. **Clone the Repository**
-
+skip downloading larger files
    ```bash
-   git clone https://github.com/sanskruti0ise/fin_news_sentiment.git
+   GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/sanskruti0ise/fin_news_sentiment.git
+for the larger files
+   ```bash
+   git lfs pull
 2. **Create and Activate a Virtual Environment**
 
    ```bash
