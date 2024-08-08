@@ -24,6 +24,30 @@ This project provides a comprehensive framework for sentiment analysis, encompas
 - An active internet connection for downloading model files and dependencies
 
 ### Installation
+**For Model training and Flask API using ngrok**
+1. **Open the ipynb in colab**
+   ```bash
+   Click on finance_news_sentiment_analysis.ipynb
+   Click on Open in Colab
+2. **Run the cells**
+   Instructions are provided wherever required.
+   For the classifiers and models --> Select the options of your choice from the dropdowns.
+3. **Flask API through ngrok**
+   While running the last cell on notebook, you would get a ngrok url copy the url.
+4. **Clone the Repository**
+   ```bash
+   GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/sanskruti0ise/fin_news_sentiment.git
+   git lfs pull
+5. **Set-up** `
+   ```bash
+   python3 -m virtualenv venv
+   source venv/bin/activate
+7. **Copy the ngrok url to ui_test_sentiment.py/test_sentiment.py**
+   ui_test_sentiment.py : gradio app for testing
+   test_sentiment.py : requests script for testing
+8. **Run the ui_test_sentiment.py**
+   ```bash
+   python3 ui_test_sentiment.py
 ---------------------------------------------------------------------------------
 1. **Clone the Repository**
 
