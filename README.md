@@ -33,11 +33,11 @@ This project provides a comprehensive framework for sentiment analysis, encompas
 2.  **For Flask API on Local machine**
    
     ```bash
-   cd Flask-Local-app
+    cd Flask-Local-app
 3.  **Create and Activate a Virtual Environment**
 
     ```bash
-   python3 -m virtualenv venv
+    python3 -m virtualenv venv
 
 4. **Activate Virtual Environment**
 
