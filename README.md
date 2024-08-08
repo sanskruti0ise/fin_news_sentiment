@@ -44,7 +44,7 @@ This project provides a comprehensive framework for sentiment analysis, encompas
    ```bash
    python3 -m virtualenv venv
    source venv/bin/activate
-* For Windows
+* For Windows:
     ```bash
     python3 -m virtualenv venv
     source env\Scripts\activate
@@ -74,9 +74,12 @@ This project provides a comprehensive framework for sentiment analysis, encompas
     python3 -m virtualenv venv
 
 4. **Activate Virtual Environment**
-
+* For Linux Based System:   
    ```bash
    source venv/bin/activate
+* For Windows:
+    ```bash
+    source env\Scripts\activate
 5. **Install Requirements**
 
    ```bash
