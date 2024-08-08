@@ -6,7 +6,7 @@ A Flask-based API for sentiment analysis using a fine-tuned BERT model. This API
 
 - [Overview](#overview)
 - [Setup](#setup)
-- [Model Training & Flask API using Ngrok](#Model Training & Flask API using Ngrok)
+- [Model Training & Flask API using Ngrok](#Training&FlaskAPI_Ngrok)
 - [Testing](#testing)
 - [Troubleshooting](#troubleshooting)
 - [License](#license)
@@ -23,7 +23,7 @@ This project provides a comprehensive framework for sentiment analysis, encompas
 - `pip` (Python package installer)
 - An active internet connection for downloading model files and dependencies
   
-## Model Training & Flask API using Ngrok
+## Training&FlaskAPI_Ngrok
 ### Installation
 **For Model training and Flask API using ngrok**
 1. **Open the ipynb in colab**
