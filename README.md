@@ -40,13 +40,19 @@ This project provides a comprehensive framework for sentiment analysis, encompas
    GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/sanskruti0ise/fin_news_sentiment.git
    git lfs pull
 5. **Set-up** `
+* For Linux Based System:   
    ```bash
    python3 -m virtualenv venv
    source venv/bin/activate
-7. **Copy the ngrok url to ui_test_sentiment.py/test_sentiment.py**
+* For Windows
+    ```bash
+    python3 -m virtualenv venv
+    source env\Scripts\activate
+    
+6. **Copy the ngrok url to ui_test_sentiment.py/test_sentiment.py**
 * ui_test_sentiment.py : gradio app for testing
 * test_sentiment.py : requests script for testing
-8. **Run the sentiment analysis**
+7. **Run the sentiment analysis**
    ```bash
    python3 ui_test_sentiment.py
    ```bash
@@ -99,8 +105,8 @@ This project provides a comprehensive framework for sentiment analysis, encompas
 
 ## Troubleshooting
 **If you do not have git lfs installed**
-Follow the link for Installation: https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage
 
-   source venv/bin/activate  # On Windows use: venv\Scripts\activate
+* Follow the link for Installation: https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage
+
 
    
