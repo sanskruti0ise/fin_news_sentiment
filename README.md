@@ -30,15 +30,19 @@ This project provides a comprehensive framework for sentiment analysis, encompas
    ```bash
    GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/sanskruti0ise/fin_news_sentiment.git
    git lfs pull
-2. **Create and Activate a Virtual Environment**
+2.  **For Flask API on Local machine:**
+   
+   ```bash
+   cd Flask-Local-app
+3. **Create and Activate a Virtual Environment**
 
    ```bash
    python3 -m virtualenv venv
-3. **Activate Virtual Environment**
+4. **Activate Virtual Environment**
 
    ```bash
    source venv/bin/activate
-4. **Install Requirements**
+5. **Install Requirements**
 
    ```bash
    pip install -r requirements.txt
