@@ -1,6 +1,7 @@
 import gradio as gr
 import requests
 
+#edit your url below
 # URL of the external API from ngrok and endpoint /predict
 url = "http://e8f2-34-23-28-188.ngrok-free.app/predict"
 
