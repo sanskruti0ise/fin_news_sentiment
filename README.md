@@ -47,6 +47,17 @@ This project provides a comprehensive framework for sentiment analysis, encompas
 
    ```bash
    pip install -r requirements.txt
+6. **Run the Flask Server**
+
+   ```bash
+   python3 app.py
+7. **Run the Requests UI for inference--> Open New Terminal**
+
+   ```bash
+   source venv/bin/activate
+   python3 app.py
+8. **Open the link in your Browser :http://127.0.0.1:7860**
+9. **Test out by entering text and submit button**
 
 | Model                               | Negative Precision | Negative Recall | Negative F1-Score | Neutral Precision | Neutral Recall | Neutral F1-Score | Positive Precision | Positive Recall | Positive F1-Score | Accuracy | Macro Avg Precision | Macro Avg Recall | Macro Avg F1-Score | Weighted Avg Precision | Weighted Avg Recall | Weighted Avg F1-Score |
 |-------------------------------------|--------------------|-----------------|-------------------|-------------------|----------------|------------------|--------------------|-----------------|-------------------|----------|---------------------|------------------|--------------------|----------------------|---------------------|----------------------|
