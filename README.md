@@ -6,9 +6,9 @@
 
 - [Overview](#overview)
 - [Setup](#setup)
-- [Model Training & Flask API using Ngrok](#Training&FlaskAPI_Ngrok)
+- [Model Training & Flask API using Ngrok](#Training_and_FlaskAPI_Ngrok)
 - [Testing Flask API on Local](#Testing_Flask_API_on_Local)
-- [Result Overview: Performance Comparison](#Result_Overview_&_Performance_Comparison)
+- [Result Overview: Performance Comparison](#Result_Overview_and_Performance_Comparison)
 - [Troubleshooting](#troubleshooting)
 
 
@@ -24,7 +24,7 @@ This project provides a comprehensive framework for sentiment analysis, encompas
 - `pip` (Python package installer)
 - An active internet connection for downloading model files and dependencies
   
-## Training&FlaskAPI_Ngrok
+## Training_and_FlaskAPI_Ngrok
 ### Installation
 **For Model training and Flask API using ngrok**
 1. **Open the ipynb in colab**
@@ -87,7 +87,7 @@ This project provides a comprehensive framework for sentiment analysis, encompas
 8. **Open the link in your Browser :http://127.0.0.1:7860**
 9. **Test out by entering text and submit button**
 
-## Result_Overview_&_Performance_Comparison
+## Result_Overview_and_Performance_Comparison
 **Performance Comparison of Sentiment Analysis Models from the experiment on Finance News Data.**
 | Model                               | Negative Precision | Negative Recall | Negative F1-Score | Neutral Precision | Neutral Recall | Neutral F1-Score | Positive Precision | Positive Recall | Positive F1-Score | Accuracy | Macro Avg Precision | Macro Avg Recall | Macro Avg F1-Score | Weighted Avg Precision | Weighted Avg Recall | Weighted Avg F1-Score |
 |-------------------------------------|--------------------|-----------------|-------------------|-------------------|----------------|------------------|--------------------|-----------------|-------------------|----------|---------------------|------------------|--------------------|----------------------|---------------------|----------------------|
