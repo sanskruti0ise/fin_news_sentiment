@@ -28,7 +28,7 @@ This project provides a comprehensive framework for sentiment analysis, encompas
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/sentiment-analysis-api.git'
+   git clone https://github.com/sanskruti0ise/fin_news_sentiment.git
 2. **Create and Activate a Virtual Environment**
 
    ```bash
