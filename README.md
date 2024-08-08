@@ -13,7 +13,7 @@ A Flask-based API for sentiment analysis using a fine-tuned BERT model. This API
 
 ## Overview
 
-This project provides a simple web API that performs sentiment analysis on textual data. The model used is a fine-tuned version of `distilbert-base-uncased`, designed for sequence classification tasks.
+This project provides a comprehensive framework for sentiment analysis, encompassing training and fine-tuning various models, including distilbert-base-uncased, Intel/dynamic_tinybert, microsoft/MiniLM-L12-H384-uncased, SVC (linear), and MultinomialNB. It includes scripts for training and fine-tuning these models, comparing their performance, and a Flask API for inference. The API allows for real-time sentiment analysis of textual data using the fine-tuned models, facilitating easy integration and deployment.
 
 ## Setup
 
@@ -33,6 +33,10 @@ This project provides a simple web API that performs sentiment analysis on textu
 
    ```bash
    python3 -m virtualenv venv
+3. **Activate Virtual Environment**
+
+   ```bash
+   source venv/bin/activate
 
 | Model                               | Negative Precision | Negative Recall | Negative F1-Score | Neutral Precision | Neutral Recall | Neutral F1-Score | Positive Precision | Positive Recall | Positive F1-Score | Accuracy | Macro Avg Precision | Macro Avg Recall | Macro Avg F1-Score | Weighted Avg Precision | Weighted Avg Recall | Weighted Avg F1-Score |
 |-------------------------------------|--------------------|-----------------|-------------------|-------------------|----------------|------------------|--------------------|-----------------|-------------------|----------|---------------------|------------------|--------------------|----------------------|---------------------|----------------------|
