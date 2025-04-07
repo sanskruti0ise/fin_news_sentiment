@@ -24,7 +24,7 @@ This project provides a comprehensive framework for sentiment analysis, encompas
 - `pip` (Python package installer)
 - An active internet connection for downloading model files and dependencies
   
-## Training_and_FlaskAPI_Ngrok
+## Training and FlaskAPI Ngrok
 ### Installation
 **For Model training and Flask API using ngrok**
 1. **Open the ipynb in colab**
